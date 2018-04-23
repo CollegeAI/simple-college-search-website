@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>College Search Website</title>
+    <link href="/styles.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="https://api.collegeai.com/api/bundle.js"></script>
+  </head>
+  <body>
+    <div
+      class="collegeai collegeai-session-data"
+      data-api-key="DO_NOT_USE_TESTING_KEY"
+    ></div>
+    <div class="header">
+      <div class="inner header-content">
+        <div class="title">College Search Website: College Map</div>
+        <div class="header-links">
+          <a href="/">Search Page</a>
+          <a href="/survey.html">Take Quiz</a>
+          <a href="/recommendations.html">Your Recommendations</a>
+          <a href="/mycolleges.html">My Colleges</a>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="inner" style="flex-direction: column">
+        <h1> Your Colleges </h1>
+        <div
+          class="collegeai-college-map"
+          data-show-listed="true"
+          style="width:100%;display:flex;justify-content:center;"
+        ></div>
+        <h1> Some other colleges </h1>
+        <div
+          class="collegeai-college-map"
+          data-college-unit-ids="194824,166027,132903"
+          style="width:100%;display:flex;justify-content:center;"
+        ></div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="inner">
+        <a href="/">Search Page</a>
+        <a href="/survey.html">Take Quiz</a>
+        <a href="/recommendations.html">Your Recommendations</a>
+        <a href="/mycolleges.html">My Colleges</a>
+        <a href="https://api.collegeai.com">Powered By The CollegeAI API</a>
+      </div>
+    </div>
+  </body>
+</html>

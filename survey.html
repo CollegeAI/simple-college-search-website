@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>College Search Website</title>
+    <link href="/styles.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="https://api.collegeai.com/api/bundle.js"></script>
+  </head>
+  <body>
+    <div class="collegeai collegeai-session-data" data-api-key="DO_NOT_USE_TESTING_KEY"></div>
+    <div class="header">
+      <div class="inner header-content">
+        <div class="title">
+          College Search Website: Survey
+        </div>
+        <div class="header-links">
+          <a href="/">Search Page</a>
+          <a href="/survey.html">Take Quiz</a>
+          <a href="/recommendations.html">Your Recommendations</a>
+          <a href="/mycolleges.html">My Colleges</a>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="inner" style="align-items: center; flex-direction: column">
+        <div
+          class="collegeai collegeai-survey"
+          data-on-complete-href="/recommendations.html"></div>
+        <a href="/recommendations.html">
+          <button style="padding: 10" >
+            Done! Show my results!
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="inner">
+        <a href="/">Search Page</a>
+        <a href="/survey.html">Take Quiz</a>
+        <a href="/recommendations.html">Your Recommendations</a>
+        <a href="/mycolleges.html">My Colleges</a>
+        <a href="https://api.collegeai.com">Powered By The CollegeAI API</a>
+      </div>
+    </div>
+  </body>
+</html>
