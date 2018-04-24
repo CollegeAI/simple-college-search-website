@@ -12,7 +12,7 @@ This repository shows off a simple website that uses [CollegeAI's API](https://a
 
 ## Usage
 
-If you want to use have any of these features on your site, checkout [api.collegeai.com](https://api.collegeai.com).
+If you want to use have any of these features on your site, check out [api.collegeai.com](https://api.collegeai.com).
 It's super easy to use and requires *minimal* copy and paste coding.
 
 All the files in this repository can be dropped into a server and should "just work". If
